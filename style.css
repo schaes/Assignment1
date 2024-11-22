@@ -22,8 +22,7 @@
       color: white;
       font-family: "Libre Barcode 39 Extended Text",sans-serif;
       font-size: 100px;
-      margin: 0;
-      padding: 0;
+      margin: 30px;
   
   }
 body{
@@ -32,10 +31,6 @@ body{
       color: white;
     }
   
-h2{
-      color: #c0c0c0;
-  }
-
 .icon{
   padding: 50px;
 }
