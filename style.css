@@ -79,3 +79,17 @@ body{
 }
 
 /* End of navigation Stuff */
+
+.songs{
+  padding: 40px;
+}
+.songtitlelength{
+  text-decoration: none;
+  font-family: "Lexend Tera", sans-serif;
+  font-size: 40px;
+  color: white;
+}
+h1{
+  font-family: "Notable", sans-serif;
+  font-size: 100px;
+}
