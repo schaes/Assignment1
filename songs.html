@@ -15,7 +15,8 @@
             <link href="https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@100..900&family=Libre+Barcode+39+Extended+Text&family=Notable&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">
             <!--end of fonts-->
     </head>
-    <body>
+    <body class="songspage">
+        <!--to copy and paste in all pages-->
         <header>
             <p class="header"> KANARIA. </p>
         </header>
@@ -27,29 +28,36 @@
                 <a href="music_usage_guidelines.html">music usage guidelines</a>
               </div>
         </nav>
+        <!-- end of to copy and paste in all pages-->
         <div>
             <h1>latest songs</h1>
-        </div>
-        <div>
-            <iframe class="songs" width="908" height="599" src="https://www.youtube.com/embed/h4HkXR3NSI4?si=R39hpPTE1w3mfVxn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <a class="songtitlelength" href="https://www.youtube.com/watch?v=h4HkXR3NSI4" target="_blank" style="display: block;">BRAIN - 2:36</a>
-        </div>
-        <div>
-            <iframe class="songs" width="908" height="599" src="https://www.youtube.com/embed/BuDK3aiMmIs?si=0FdVubrdgPHfySjY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <a class="songtitlelength" href="https://www.youtube.com/watch?v=BuDK3aiMmIs" target="_blank" style="display: block;">NEVERFICTION - 2:04</a>
-        </div>
-        <div>
-            <iframe class="songs" width="908" height="599" src="https://www.youtube.com/embed/VxjledMkwyk?si=ZJrHiTgfWGlStQzJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <a class="songtitlelength" href="https://www.youtube.com/watch?v=VxjledMkwyk" target="_blank" style="display: block;">CHAMPION - 2:17</a>
-        </div>
-        <div>
-            <iframe class="songs" width="908" height="599" src="https://www.youtube.com/embed/9xbT8OZcDJQ?si=1nX65YGjHjz7JIgo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <a class="songtitlelength" href="https://www.youtube.com/watch?v=9xbT8OZcDJQ" target="_blank" style="display: block;">DEC. - 2:13</a>
-        </div>
-        <div>
-            <iframe class="songs" width="908" height="599" src="https://www.youtube.com/embed/L5t_TkogtDM?si=VeaDw8wUYwe6POYf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <a class="songtitlelength" href="https://www.youtube.com/watch?v=L5t_TkogtDM" target="_blank" style="display: block;">DEMON LORD - 2:38</a>
+            <p>(most recent 5)</p>
         </div>
         
+        <div class="video-carousel">
+            
+
+            <div class="video-container">
+                <iframe class="video-item" data-title="BRAIN" width="908" height="599" src="https://www.youtube.com/embed/h4HkXR3NSI4?si=R39hpPTE1w3mfVxn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+                <iframe class="video-item" data-title="NeverFiction" width="908" height="599" src="https://www.youtube.com/embed/BuDK3aiMmIs?si=0FdVubrdgPHfySjY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+                <iframe class="video-item" data-title="Champion"width="908" height="599" src="https://www.youtube.com/embed/VxjledMkwyk?si=ZJrHiTgfWGlStQzJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+                <iframe class="video-item" data-title="Dec." width="908" height="599" src="https://www.youtube.com/embed/9xbT8OZcDJQ?si=1nX65YGjHjz7JIgo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+                <iframe class="video-item" data-title="Demon Lord" width="908" height="599" src="https://www.youtube.com/embed/L5t_TkogtDM?si=VeaDw8wUYwe6POYf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            
+            
+            
+        </div>
+        <p id="videoLabel">Video Name</p>
+        <button id="prevBtn">&lt;</button>
+        <button id="nextBtn">&gt;</button>
+        
+
+        <script src="script.js"></script>
+
     </body>
 </html>

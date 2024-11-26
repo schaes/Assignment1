@@ -18,35 +18,7 @@
   font-style: normal;
 }
 /* End of fonts */
-.header{
-      color: white;
-      font-family: "Libre Barcode 39 Extended Text",sans-serif;
-      font-size: 100px;
-      margin: 30px;
-  
-  }
-body{
-      background-color: black;
-      text-align: center;
-      color: white;
-    }
-  
-.icon{
-  padding: 50px;
-}
 
-.info1{
-  font-family: "Notable", sans-serif;
-  font-size: 100px;
-  margin: 0;
-  align-items: center;
-}
-.description{
-  font-family: "Lexend Tera", sans-serif;
-  font-size: 20px;
-  margin: 100px;
-  align-items: center;
-}
 /* Top navigation Stuff */
 .tnav {
   font-family: "Lexend Tera", sans-serif;
@@ -79,17 +51,154 @@ body{
 }
 
 /* End of navigation Stuff */
+/* backgrounds */
 
+body{
+  background-image: url(wallpaper.png);
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-size: cover; /* Scale the image to cover the entire container */
+  background-position: center; /* Center the image */
+}
+
+/* End of backgrounds */
+
+h1{
+  font-family: "Notable", sans-serif;
+  font-size: 100px;
+}
+
+.header{
+  color: white;
+  font-family: "Libre Barcode 39 Extended Text",sans-serif;
+  font-size: 100px;
+  margin: 30px;
+
+}
+body{
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-family: "Lexend Tera", sans-serif;
+  font-size: 20px;
+}
+
+.info1{
+font-family: "Notable", sans-serif;
+font-size: 100px;
+margin: 0;
+align-items: center;
+}
+
+/*song page*/
 .songs{
   padding: 40px;
 }
+
 .songtitlelength{
   text-decoration: none;
   font-family: "Lexend Tera", sans-serif;
   font-size: 40px;
   color: white;
+  background-color: #000000;
+  border-radius: 5px;
+  border: yellow;
 }
-h1{
-  font-family: "Notable", sans-serif;
-  font-size: 100px;
+
+/* video thing...*/
+
+.video-carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
 }
+
+.video-container {
+  display: flex;
+  flex-direction: column; /* Stack video and title vertically */
+  align-items: center; /* Center both video and title */
+  max-width: 908px; /* Ensure video fits within container */
+  margin: 0 10px; /* Add margin for spacing */
+}
+
+.video-item {
+  min-width: 900px; /* Each video takes up the full width of the wrapper */
+  height: 599px;
+  display: none; /* Hide videos by default */
+  padding: 20px;
+}
+
+.video-item.active {
+  display: block; /* Show only the active video */
+}
+
+#videoLabel {
+  font-size: 20px; /* Adjust font size of the title */
+  text-align: center;
+  color: white;
+  margin-top: 10px; /* Add some space between video and title */
+  white-space: normal; /* Allow the text to wrap if necessary */
+}
+
+button {
+  background-color: transparent; /* Removes the button background */
+  color: white;
+  border: 2px solid #555; /* Keeps the border */
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-family: "Lexend Tera", sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #444; /* Optional: Add a hover background for interactivity */
+}
+/*song page end*/
+
+
+/*Home Flexbox stuff */
+#homevideoloop{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+.container {
+  display: flex;
+  width: 100%;
+  background: linear-gradient(to right, #000000, #0000004f); /* Example gradient */
+  flex-wrap: wrap;
+  /*wrap flex items to a new row if not enough space */
+  justify-content: center;
+}
+
+.split{
+  padding: 2%;
+  flex-grow: 1;
+  flex-basis: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.split {
+  max-width: 100%;
+}
+
+@media (max-width: 920px) {
+  .split {
+    flex-grow: 1;
+    flex-basis: 50%;
+    padding: 2%;
+    align-items: flex-start; /* Ensure left alignment on smaller screens */
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+/* End of flexbox stuff */
