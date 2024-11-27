@@ -16,7 +16,7 @@
             <!--end of fonts-->
     </head>
     <body class="songspage">
-        <!--to copy and paste in all pages-->
+        <!-- header -->
         <header>
             <p class="header"> KANARIA. </p>
         </header>
@@ -26,16 +26,16 @@
                 <a class="active" href="songs.html">songs</a>
                 <a href="social_media.html">social media</a>
                 <a href="music_usage_guidelines.html">music usage guidelines</a>
-              </div>
+            </div>
         </nav>
-        <!-- end of to copy and paste in all pages-->
+        <!-- end of header -->
         <div>
             <h1>latest songs</h1>
             <p>(most recent 5)</p>
         </div>
         
         <div class="video-carousel">
-            
+            <button id="prevBtn">&lt;</button>
 
             <div class="video-container">
                 <iframe class="video-item" data-title="BRAIN" width="908" height="599" src="https://www.youtube.com/embed/h4HkXR3NSI4?si=R39hpPTE1w3mfVxn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -49,12 +49,12 @@
                 <iframe class="video-item" data-title="Demon Lord" width="908" height="599" src="https://www.youtube.com/embed/L5t_TkogtDM?si=VeaDw8wUYwe6POYf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
             
-            
+            <button id="nextBtn">&gt;</button>
             
         </div>
         <p id="videoLabel">Video Name</p>
-        <button id="prevBtn">&lt;</button>
-        <button id="nextBtn">&gt;</button>
+
+
         
 
         <script src="script.js"></script>

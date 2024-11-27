@@ -54,7 +54,7 @@
 /* backgrounds */
 
 body{
-  background-image: url(wallpaper.png);
+  background-image: url(media/wallpaper.png);
   background-repeat: no-repeat; /* Prevent the image from repeating */
   background-size: cover; /* Scale the image to cover the entire container */
   background-position: center; /* Center the image */
@@ -202,3 +202,49 @@ img {
   height: auto;
 }
 /* End of flexbox stuff */
+
+/* Social Media Stuff */
+#socialmediavideo{
+  width: 80%; /* Make the video take the full width of the container */
+  height: 70%; /* Make the video take the full height of the viewport (100% of the screen height) */
+  background-color: black;
+}
+.socialmedia_icons {
+  display: flex; /* Make this a flex container */
+  flex-wrap: no-wrap; /* Allow wrapping of icons to a new line if necessary */
+  justify-content: center; /* Center the icons horizontally */
+  align-items: center; /* Center the icons vertically */
+  gap: 20px; /* Add space between the icons */
+  margin: 20px auto; /* Center the container and add some spacing */
+  padding: 10px; /* Optional: Add padding inside the container */
+}
+
+.socialmedia_icons a img {
+  transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth animation */
+}
+
+.socialmedia_icons a img:hover {
+  transform: scale(1.1); /* Zoom effect */
+  opacity: 0.8; /* Slight transparency */
+}
+
+/* End of Social Media Stuff */
+
+/* Music Usage Guidelines Stuff */
+#titleMUG{
+  padding: 78px;
+}
+#textMUG{
+  padding: 0 579px 20px;
+}
+.contact{
+  background-color: #000000;
+  color: white;
+  transition: color 0.3s ease; /* Transition effect on color change over 0.3 seconds */
+}
+.contact:hover{
+  background-color: #000000;
+  color: red;
+
+
+}
