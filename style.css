@@ -96,20 +96,6 @@ align-items: center;
 }
 
 /*song page*/
-.songs{
-  padding: 40px;
-}
-
-.songtitlelength{
-  text-decoration: none;
-  font-family: "Lexend Tera", sans-serif;
-  font-size: 40px;
-  color: white;
-  background-color: #000000;
-  border-radius: 5px;
-  border: yellow;
-}
-
 /* video thing...*/
 
 .video-carousel {
@@ -306,7 +292,23 @@ img {
 .contact{
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: center;
   gap: 20px;
+  padding: 20px;
 }
+
+.contactInputs{
+  width: 600px;
+  height: 50px;
+  padding-left: 25px;
+  border-radius: 50px;
+}
+
+.contact textarea{
+  width: 600px;
+  height: 400px;
+  padding: 15px;
+  border-radius: 20px;
+}
+
 /* Contact end */

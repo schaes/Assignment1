@@ -48,6 +48,8 @@ The project uses JQuery to simplify DOM manipulation.
 Testing
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
+-Web3Forms
+This project uses Web3Forms to make sending emails and receiving them easier (used for the contact us page)
 
 1. Contact form:
 i. Go to the "Contact Us" page

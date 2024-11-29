@@ -18,7 +18,7 @@
             <link href="https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@100..900&family=Libre+Barcode+39+Extended+Text&family=Notable&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">
             <!--end of fonts-->
     </head>
-    <body class="musicusageguidelinespage">
+    <body>
         <!-- header -->
         <header>
             <p class="header"> KANARIA. </p>
@@ -31,16 +31,18 @@
             </div>
         </nav>
         <!-- end of header -->
-
+        <p>Any queries? Please contact us :D</p>
         <div id="contactContainer">
-            <form action="" class="contact"></form>
-            <h2>Contact Us:</h2>
-            <input class="contactInputs" type="text" name="name" placeholder="Your Name" required>
-            <input class="contactInputs" type="text" name="name" placeholder="Your Name" required>
-            <textarea class="contactInputs" name="message" placeholder="Your Message" required></textarea>
-        
-            <button type="submit">Submit</button>
-        
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact"> <!--web3forms here-->
+                
+                <input type="hidden" name="access_key" value="d61b29e1-35de-4f6c-aa50-aa7c21106bf2"> <!--and here....-->
+                <input class="contactInputs" type="text" name="name" placeholder="Your Name" required>
+                <input class="contactInputs" type="email" name="email" placeholder="Your Email" required>
+                <textarea class="contactInputs" name="message" placeholder="Your Message" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+
         </div>
     </body>
 </html>
