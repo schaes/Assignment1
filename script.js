@@ -30,3 +30,4 @@ nextBtn.addEventListener('click', () => {
 
 // Initialize the first video as active
 updateActiveVideo();
+

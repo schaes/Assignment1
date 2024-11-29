@@ -158,7 +158,7 @@ button:hover {
 /*song page end*/
 
 
-/*Home Flexbox stuff */
+/*Home stuff */
 #homevideoloop{
   display: flex;
   justify-content: center;
@@ -201,7 +201,48 @@ img {
   max-width: 100%;
   height: auto;
 }
-/* End of flexbox stuff */
+/* fancy video thing in home page*/
+#popsongs{
+  display: flex;
+  gap: 10px;
+  flex-grow: 1;
+  flex-basis: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.songcontainer{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px; /* or any desired height */
+  padding-top: 2%;
+  padding-bottom: 10%;
+}
+.songcontainer img {
+  width: 100%;
+  height: auto;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+  object-fit: cover; /* Ensures the image covers the container area */
+}
+
+.songcontainer img:hover {
+  filter: grayscale(0%); /* Full color when hovered */
+}
+
+.OverlayText {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+/* End of home stuff */
 
 /* Social Media Stuff */
 #socialmediavideo{
