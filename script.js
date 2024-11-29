@@ -19,7 +19,7 @@ function updateActiveVideo() {
 
 // Event listeners for navigation buttons
 prevBtn.addEventListener('click', () => {
-  currentVideoIndex = (currentVideoIndex - 1 + videos.length) % videos.length;
+  currentVideoIndex = (currentVideoIndex - 1 + videos.length) % videos.length; //+videos length to make sure the code wraps around back to first after scrolling through everything
   updateActiveVideo();
 });
 

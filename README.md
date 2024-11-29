@@ -8,19 +8,31 @@ My Design Process:
 The first step was to get a rough idea of what colours i'd associate with Kanaria because i like focusing on aesthetics first and plan out the rest later.
 Kanaria's youtube songs usually consist of white, black, and another colour which is either red or blue (usually they use more red in their music videos) so for my website i decided to use black as the main background colours, white as the text and red for the secondary background colour.
 
+I also decided on yellow as an minor fourth colour because of kanaria's vtuber model being black white red and yellow.
+
 I also decided to deviate a bit from my initial wireframe because it felt too boring or clunky to me.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
+USER STORIES:
+(As a user type, I want to perform an action, so that I can achieve a goal.)
+
+As a new fan, I would like to be able to see Kanaria's new songs easily, so that I can view what else Kanaria has to offer
+
+As someone who is a fan, I would like to know Kanaria's social media accounts, so that I can keep updated with Kanaria's content.
 
 
-(As a user type, I want to perform an action, so that I can achieve a goal.
+As someone who is a fan and would like to use Kanaria's songs in my projects or for public events, I would like to know their music usage guidelines, so that I don't get in trouble with their lawyer.
+
+As someone who would like to contact Kanaria for business reasons, I would like there to be a contact us page so that I may speak to him.
 
 wireframe (in figma): https://www.figma.com/design/8g3A0aZckrdxWPbeHwJ7nJ/IM_S10258123E_EmilieTeeJingHui_Assg1_wireframe?node-id=0-1&t=I4sdnVvdo6GpEoZP-1
 
 # Features
 # Existing Features
 Feature 1 - navigation bar that allows user to navigate between the different parts of the fansite.
-Feature 2 - video that scrolls... in songs page
+
+Feature 2 - video that scrolls with circular navigation... in songs page
+
+Feature 3 micro interaction? - easy access to kanaria's top 4 popular songs in the home page via clicking the thumbnails of the songs. when hovering mouse above images, images will increase in size and gain colour (same for social media icons except social media icons dont get colour)
 
 # Features Left to Implement
 - log in? idk. displays ur user name at the top right corner... check sample code for local storage
@@ -60,6 +72,7 @@ youtube app icon used in the social media page: https://uxwing.com/youtube-app-w
 X app ixon used in the social media page: https://uxwing.com/x-social-media-white-icon/
 niconico app icon used in social media page: https://www.svgrepo.com/svg/518218/niconico
 tiktok app icon used in social media page: https://www.svgrepo.com/svg/473806/tiktok
+images of the thumbnails in the home page were taken from their respective song videos: https://youtu.be/GmU8KIfhmpQ?si=Hattc1ce8u8JdOdu, https://youtu.be/5Jja39-69G8?si=a3ih-dm-8koVGlYi, https://youtu.be/KFCaSz_yYCM?si=V1pbnL8gM60_q4K5, https://youtu.be/vB8sxY_PJ_w?si=iwyjjeKzL6H0HtM_
 
 - Acknowledgements
-I received inspiration for this project from Kanaria... on youtube.. because i didnt know what else to do..
+I received inspiration for this project from listening to Kanaria's music... and visuals...

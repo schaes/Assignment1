@@ -65,6 +65,8 @@ body{
 h1{
   font-family: "Notable", sans-serif;
   font-size: 100px;
+  text-decoration: underline;
+  text-decoration-color: rgb(255, 230, 163);
 }
 
 .header{
@@ -118,13 +120,13 @@ align-items: center;
   display: flex;
   flex-direction: column; /* Stack video and title vertically */
   align-items: center; /* Center both video and title */
-  max-width: 908px; /* Ensure video fits within container */
+  max-width: 800px; /* Ensure video fits within container */
   margin: 0 10px; /* Add margin for spacing */
 }
 
 .video-item {
-  min-width: 900px; /* Each video takes up the full width of the wrapper */
-  height: 599px;
+  width: 800px; /* Each video takes up the full width of the wrapper */
+  height: 499px;
   display: none; /* Hide videos by default */
   padding: 20px;
 }
@@ -276,9 +278,7 @@ img {
 #titleMUG{
   padding: 78px;
 }
-#textMUG{
-  padding: 0 579px 20px;
-}
+
 .contact{
   background-color: #000000;
   color: white;
@@ -290,3 +290,5 @@ img {
 
 
 }
+
+/* End of Music Usage Guidelines Stuff */
