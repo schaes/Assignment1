@@ -191,7 +191,7 @@ button:hover {
   max-width: 100%;
 }
 
-@media (max-width: 920px) {
+@media (max-width: 920px) { /**/
   .split {
     flex-grow: 1;
     flex-basis: 50%;
@@ -204,6 +204,7 @@ img {
   max-width: 100%;
   height: auto;
 }
+
 /* fancy video thing in home page*/
 #popsongs{
   display: flex;
@@ -279,16 +280,14 @@ img {
   padding: 78px;
 }
 
-.contact{
-  background-color: #000000;
-  color: white;
-  transition: color 0.3s ease; /* Transition effect on color change over 0.3 seconds */
-}
-.contact:hover{
-  background-color: #000000;
-  color: red;
-
-
-}
-
 /* End of Music Usage Guidelines Stuff */
+/* Contact... page... */
+/*.contactContainer{
+  background-color: #000000;
+  height:100vh
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}*
+
+/* Contact end */
