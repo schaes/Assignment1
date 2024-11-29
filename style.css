@@ -68,6 +68,11 @@ h1{
   text-decoration-color: rgb(255, 230, 163);
 }
 
+h2{
+  text-decoration: underline;
+  text-decoration-color: rgb(255, 230, 163);
+}
+
 .header{
   color: white;
   font-family: "Libre Barcode 39 Extended Text",sans-serif;
@@ -114,6 +119,7 @@ align-items: center;
   gap: 10px;
   position: relative;
 }
+
 
 .video-container {
   display: flex;
@@ -206,7 +212,7 @@ img {
 }
 
 /* fancy video thing in home page*/
-#popsongs{
+#popsongs{ /*FOR HOME PAGE*/
   display: flex;
   gap: 10px;
   flex-grow: 1;
@@ -217,7 +223,7 @@ img {
 
 }
 
-.songcontainer{
+.songcontainer{ /*FOR HOME PAGE*/
   position: relative;
   display: flex;
   justify-content: center;
@@ -226,7 +232,7 @@ img {
   padding-top: 2%;
   padding-bottom: 10%;
 }
-.songcontainer img {
+.songcontainer img { /*FOR HOME PAGE*/
   width: 100%;
   height: auto;
   filter: grayscale(100%);
@@ -234,7 +240,7 @@ img {
   object-fit: cover; /* Ensures the image covers the container area */
 }
 
-.songcontainer img:hover {
+.songcontainer img:hover { /*FOR HOME PAGE*/
   filter: grayscale(0%); /* Full color when hovered */
   transform: scale(1.05); /* Zoom effect */
 }
@@ -276,18 +282,31 @@ img {
 /* End of Social Media Stuff */
 
 /* Music Usage Guidelines Stuff */
+
+
 #titleMUG{
   padding: 78px;
 }
 
+.linearGradBgContainer{
+  background: linear-gradient(to right, #000000, #0000004f); /* Example gradient */
+}
+
 /* End of Music Usage Guidelines Stuff */
 /* Contact... page... */
-/*.contactContainer{
+
+.contactContainer{
   background-color: #000000;
-  height:100vh
+  height:100vh;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-}*
+}
 
+.contact{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
 /* Contact end */
