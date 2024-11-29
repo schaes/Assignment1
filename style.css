@@ -226,12 +226,13 @@ img {
   width: 100%;
   height: auto;
   filter: grayscale(100%);
-  transition: filter 0.3s ease;
+  transition: filter 0.3s ease, transform 0.3s ease;
   object-fit: cover; /* Ensures the image covers the container area */
 }
 
 .songcontainer img:hover {
   filter: grayscale(0%); /* Full color when hovered */
+  transform: scale(1.05); /* Zoom effect */
 }
 
 .OverlayText {
