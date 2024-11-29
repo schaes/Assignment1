@@ -7,7 +7,6 @@
 
 .lexend-tera-regular {
   font-family: "Lexend Tera", serif;
-  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
@@ -26,7 +25,7 @@
   overflow: hidden;
   display: flex;
   justify-content: right;
-  align-items: right;
+
   
 }
 
@@ -129,6 +128,8 @@ align-items: center;
   height: 499px;
   display: none; /* Hide videos by default */
   padding: 20px;
+  border: none; /* Removes the border */
+
 }
 
 .video-item.active {
@@ -255,7 +256,6 @@ img {
 }
 .socialmedia_icons {
   display: flex; /* Make this a flex container */
-  flex-wrap: no-wrap; /* Allow wrapping of icons to a new line if necessary */
   justify-content: center; /* Center the icons horizontally */
   align-items: center; /* Center the icons vertically */
   gap: 20px; /* Add space between the icons */
