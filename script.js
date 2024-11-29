@@ -10,7 +10,7 @@ function updateActiveVideo() {
   videos.forEach((video, index) => {
     if (index === currentVideoIndex) {
       video.classList.add('active');
-      videoLabel.textContent = video.getAttribute('data-title');
+      videoLabel.textContent = video.getAttribute('data-title'); //to get the title of the vid
     } else {
       video.classList.remove('active');
     }

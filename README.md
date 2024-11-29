@@ -1,4 +1,4 @@
-# KANARIA FANWEBSITE.
+# KANARIA WEBSITE.
 This project is a website based on a japanese musician named Kanaria. The website is made to advertise his latest songs, and to share more information about him and his music.
 
 # Design Process
