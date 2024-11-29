@@ -1,4 +1,4 @@
-# Your Project's Name
+# KANARIA FANWEBSITE.
 This project is a website based on a japanese musician named Kanaria. The website is made to advertise his latest songs, and to share more information about him and his music.
 
 # Design Process
@@ -35,12 +35,11 @@ Feature 2 - video that scrolls with circular navigation... in songs page
 Feature 3 micro interaction? - easy access to kanaria's top 4 popular songs in the home page via clicking the thumbnails of the songs. when hovering mouse above images, images will increase in size and gain colour (same for social media icons except social media icons dont get colour)
 
 # Features Left to Implement
-- log in? idk. displays ur user name at the top right corner... check sample code for local storage
 - contact us page.
 
 
 # Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+[In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
 
 - JQuery
@@ -55,10 +54,14 @@ ii. Try to submit the empty form and verify that an error message about the requ
 iii. Try to submit the form with an invalid email address and verify that a relevant error message appears
 iv. Try to submit the form with all inputs valid and verify that a success message appears.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+In addition, you should mention in this section how your project looks and works on different browsers and screen sizes:]
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+
+
+# PROBLEMS
+- currently most devices work except ipad air and asus zenbook fold because the arrow on the left will go offscreen for some reason but other than that they work.
+
+- the video carousel in the songs page has a problem. When you click one video and go to the next, the audio will keep playing and overlap with the current's audio if you play the current video. (tldr: video audio will overlap with each other when played at the same time.)
 
 # Credits
 - Content
