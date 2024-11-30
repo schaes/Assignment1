@@ -67,17 +67,17 @@ The project looks normal on different browsers (tested google and microsoft edge
 
 The text for the INFO at the home page was copied from the Vocaloid Wiki (https://vocaloid.fandom.com/wiki/Kanaria)
 The text for the Music Usage Guidelines was copied from kanaria's website and google translated (https://kanariamusic390.wixsite.com/website)
-- Media
+# Media
 
-I drew the rose thing at the end of the pages^^
-The looping video in the main page (index) is a clip from https://youtu.be/h4HkXR3NSI4?si=lpUUMPFRIhqCY3r- 
-The photo used in this site's song page wallpaper (https://www.flickr.com/photos/abstractstv/3360617281)
-spotify app icon used in the social media page: https://newsroom.spotify.com/media-kit/logo-and-brand-assets/ 
-youtube app icon used in the social media page: https://uxwing.com/youtube-app-white-icon/
-X app ixon used in the social media page: https://uxwing.com/x-social-media-white-icon/
-niconico app icon used in social media page: https://www.svgrepo.com/svg/518218/niconico
-tiktok app icon used in social media page: https://www.svgrepo.com/svg/473806/tiktok
-images of the thumbnails in the home page were taken from their respective song videos: https://youtu.be/GmU8KIfhmpQ?si=Hattc1ce8u8JdOdu, https://youtu.be/5Jja39-69G8?si=a3ih-dm-8koVGlYi, https://youtu.be/KFCaSz_yYCM?si=V1pbnL8gM60_q4K5, https://youtu.be/vB8sxY_PJ_w?si=iwyjjeKzL6H0HtM_
+- I drew the rose thing at the end of the pages^^
+- The looping video in the main page (index) is a clip from https://youtu.be/h4HkXR3NSI4?si=lpUUMPFRIhqCY3r- 
+- The photo used in this site's song page wallpaper (https://www.flickr.com/photos/abstractstv/3360617281)
+- spotify app icon used in the social media page: https://newsroom.spotify.com/media-kit/logo-and-brand-assets/ 
+- youtube app icon used in the social media page: https://uxwing.com/youtube-app-white-icon/
+- X app ixon used in the social media page: https://uxwing.com/x-social-media-white-icon/
+- niconico app icon used in social media page: https://www.svgrepo.com/svg/518218/niconico
+- tiktok app icon used in social media page: https://www.svgrepo.com/svg/473806/tiktok
+- images of the thumbnails in the home page were taken from their respective song videos: https://youtu.be/GmU8KIfhmpQ?si=Hattc1ce8u8JdOdu, https://youtu.be/5Jja39-69G8?si=a3ih-dm-8koVGlYi, https://youtu.be/KFCaSz_yYCM?si=V1pbnL8gM60_q4K5, https://youtu.be/vB8sxY_PJ_w?si=iwyjjeKzL6H0HtM_
 
-- Acknowledgements
+# Acknowledgements
 I received inspiration for this project from listening to Kanaria's music... and visuals...
