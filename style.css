@@ -278,7 +278,6 @@ button:hover {
 #contactContainer{
   height:80vh;
   display: flex;
-  align-items: top;
   justify-content: space-evenly;
 }
 
