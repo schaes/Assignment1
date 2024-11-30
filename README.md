@@ -2,26 +2,17 @@
 This project is a website based on a japanese musician named Kanaria. The website is made to advertise his latest songs, and to share more information about him and his music.
 
 # Design Process
-Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
 My Design Process:
 The first step was to get a rough idea of what colours i'd associate with Kanaria because i like focusing on aesthetics first and plan out the rest later.
 Kanaria's youtube songs usually consist of white, black, and another colour which is either red or blue (usually they use more red in their music videos) so for my website i decided to use black as the main background colours, white as the text and red for the secondary background colour.
 
-I also decided on yellow as an minor fourth colour because of kanaria's vtuber model being black white red and yellow.
-
-I also decided to deviate a bit from my initial wireframe because it felt too boring or clunky to me.
+I also decided on yellow as an minor fourth colour because of kanaria's vtuber model being black white red and yellow and I also decided to deviate a bit from my initial wireframe because it felt too boring or clunky to me.
 
 USER STORIES:
-(As a user type, I want to perform an action, so that I can achieve a goal.)
 
 As a new fan, I would like to be able to see Kanaria's new songs easily, so that I can view what else Kanaria has to offer
-
 As someone who is a fan, I would like to know Kanaria's social media accounts, so that I can keep updated with Kanaria's content.
-
-
 As someone who is a fan and would like to use Kanaria's songs in my projects or for public events, I would like to know their music usage guidelines, so that I don't get in trouble with their lawyer.
-
 As someone who would like to contact Kanaria for business reasons, I would like there to be a contact us page so that I may speak to him.
 
 wireframe (in figma): https://www.figma.com/design/8g3A0aZckrdxWPbeHwJ7nJ/IM_S10258123E_EmilieTeeJingHui_Assg1_wireframe?node-id=0-1&t=I4sdnVvdo6GpEoZP-1 
@@ -34,12 +25,14 @@ Feature 2 - video that scrolls with circular navigation... in songs page
 
 Feature 3 micro interaction? - easy access to kanaria's top 4 popular songs in the home page via clicking the thumbnails of the songs. when hovering mouse above images, images will increase in size and gain colour (same for social media icons except social media icons dont get colour)
 
+Feature 4 contact us page - sends email to a set email (my email...) when all inputs are filled in correctly.
+
 # Features Left to Implement
 - nil
 
 
 # Technologies Used
--Web3Forms
+- Web3Forms
 This project uses Web3Forms to make sending emails and receiving them easier (used for the contact us page)
 
 # Testing
