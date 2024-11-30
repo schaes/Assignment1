@@ -40,37 +40,36 @@ Feature 3 micro interaction? - easy access to kanaria's top 4 popular songs in t
 
 
 # Technologies Used
-[In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-
-- JQuery
-The project uses JQuery to simplify DOM manipulation.
-Testing
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
 -Web3Forms
 This project uses Web3Forms to make sending emails and receiving them easier (used for the contact us page)
 
+# Testing
+For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 1. Contact form:
 i. Go to the "Contact Us" page
 ii. Try to submit the empty form and verify that an error message about the required fields appears
 iii. Try to submit the form with an invalid email address and verify that a relevant error message appears
 iv. Try to submit the form with all inputs valid and verify that a success message appears.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes:]
+In addition, you should mention in this section how your project looks and works on different browsers and screen sizes:
 
 
 
 # PROBLEMS
-- currently most devices work except ipad air and asus zenbook fold because the arrow on the left will go offscreen for some reason but other than that they work.
+- SONGS PAGE PROBLEM ONLY. currently most devices work except ipad air and asus zenbook fold because the arrow on the left will go offscreen for some reason but other than that they work. 
 
 - the video carousel in the songs page has a problem. When you click one video and go to the next, the audio will keep playing and overlap with the current's audio if you play the current video. (tldr: video audio will overlap with each other when played at the same time.)
 
+- contact us page,, email input allows inputs such as "as@sa" (if there is no @ sign and things behind the @ it wont allow the input though so... uh.. yay)
+
 # Credits
 - Content
+
 The text for the INFO at the home page was copied from the Vocaloid Wiki (https://vocaloid.fandom.com/wiki/Kanaria)
 The text for the Music Usage Guidelines was copied from kanaria's website and google translated (https://kanariamusic390.wixsite.com/website)
 - Media
+
+I drew the rose thing at the end of the pages^^
 The looping video in the main page (index) is a clip from https://youtu.be/h4HkXR3NSI4?si=lpUUMPFRIhqCY3r- 
 The photo used in this site's song page wallpaper (https://www.flickr.com/photos/abstractstv/3360617281)
 spotify app icon used in the social media page: https://newsroom.spotify.com/media-kit/logo-and-brand-assets/ 
