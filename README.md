@@ -25,7 +25,6 @@ As someone who is a fan and would like to use Kanaria's songs in my projects or 
 As someone who would like to contact Kanaria for business reasons, I would like there to be a contact us page so that I may speak to him.
 
 wireframe (in figma): https://www.figma.com/design/8g3A0aZckrdxWPbeHwJ7nJ/IM_S10258123E_EmilieTeeJingHui_Assg1_wireframe?node-id=0-1&t=I4sdnVvdo6GpEoZP-1 
-to be redone.
 
 # Features
 # Existing Features
