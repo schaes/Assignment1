@@ -36,7 +36,7 @@ Feature 2 - video that scrolls with circular navigation... in songs page
 Feature 3 micro interaction? - easy access to kanaria's top 4 popular songs in the home page via clicking the thumbnails of the songs. when hovering mouse above images, images will increase in size and gain colour (same for social media icons except social media icons dont get colour)
 
 # Features Left to Implement
-- contact us page.
+- nil
 
 
 # Technologies Used
@@ -44,15 +44,23 @@ Feature 3 micro interaction? - easy access to kanaria's top 4 popular songs in t
 This project uses Web3Forms to make sending emails and receiving them easier (used for the contact us page)
 
 # Testing
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+
 1. Contact form:
 i. Go to the "Contact Us" page
 ii. Try to submit the empty form and verify that an error message about the required fields appears
 iii. Try to submit the form with an invalid email address and verify that a relevant error message appears
 iv. Try to submit the form with all inputs valid and verify that a success message appears.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes:
+2. Top 4 Songs Icons and Social Media Icons:
+i. Go to the "Home" page
+ii. Try clicking on each image and see if it sends you to their respective links
 
+3. Video Carousel:
+i. Go to the "Songs" page
+ii. Try playing the videos by clicking on them (pause them after youve tested that the video is playable, why? its written in the problems part of this readme :"D.)
+iii. Try clicking the arrow keys to change to a different video and check that both buttons are able to loop back to the first video.
+
+The project looks normal on different browsers (tested google and microsoft edge), screen sizes (for most excluding ipad air and asus zenbook fold), and functions as intended
 
 
 # PROBLEMS
